@@ -1,0 +1,792 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    background: url('../img/1.png'); center no-repeat fixed;
+}
+
+h1{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+}
+
+h2{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+}
+
+h3{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+}
+
+p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+}
+
+/* заголовок */
+.castfont{
+width: 667px;
+height: 60px;
+margin-left: 403px;
+margin-top: 61px;
+position: absolute;
+}
+
+.uslovye{
+width: 641px;
+height: 28px;
+margin-left: 400px;
+margin-top: 145px;
+position: absolute;
+text-align: center;
+}
+
+.avtor{
+width: 127px;
+height: 16px;
+margin-left: 657px;
+margin-top: 857px;
+position: absolute;
+text-align: center;
+}
+
+/* камнеломня */
+.but1{
+margin-left: 226px;
+margin-top: 617px;
+position: absolute;
+color: #000000;
+}
+
+.elips1{
+width: 160px;
+height: 160px;
+margin-left: 216px;
+margin-top: 453px;
+position: absolute;
+-moz-border-radius: 80px;
+-webkit-border-radius: 80px;
+border-radius: 80px;
+border: 13px solid #000000;
+box-sizing: border-box;
+}
+
+.elips2{
+position: absolute;
+width: 101px;
+height: 102px;
+margin-left: 245px;
+margin-top: 482px;
+background: #0500FF;
+filter: blur(25px);
+}
+
+
+.elips2:hover {
+position: absolute;
+margin-left: 220px;
+margin-top: 460px;
+width: 150px;
+height: 150px;
+-moz-border-radius: 75px;
+-webkit-border-radius: 75px;
+border-radius: 80px;
+box-sizing: border-box;
+background: #FF0000;
+filter: blur(9px);
+
+}
+
+.monster{
+position: absolute;
+width: 195px;
+height: 178px;
+margin-left: 191px;
+margin-top: 454px;
+background-repeat: no-repeat;
+pointer-events: none;
+}
+
+/* вредное облако */
+.but2{
+margin-left: 485px;
+margin-top: 491px;
+position: absolute;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.elips3{
+width: 160px;
+height: 160px;
+margin-left: 498px;
+margin-top: 327px;
+position: absolute;
+-moz-border-radius: 80px;
+-webkit-border-radius: 80px;
+border-radius: 80px;
+border: 13px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+}
+
+/* шифр */
+.but3{
+margin-left: 824px;
+margin-top: 617px;
+position: absolute;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.elips4{
+width: 160px;
+height: 160px;
+margin-left: 780px;
+margin-top: 453px;
+position: absolute;
+-moz-border-radius: 80px;
+-webkit-border-radius: 80px;
+border-radius: 80px;
+border: 13px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+}
+
+/* аукцион */
+.but4{
+margin-left: 1092px;
+margin-top: 489px;
+position: absolute;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.elips5{
+position: absolute;
+width: 172px;
+height: 156px;
+margin-left: 1062px;
+margin-top: 329px;
+background-repeat: no-repeat;
+}
+
+/* кнопка вопроса */
+.vopros{
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+color: #000000;
+border: 2px solid #000000;
+border-radius: 20px;
+padding: 4px 12px;
+position: absolute;
+top: 831px;
+left: 1371px;
+}
+
+.vopros:hover {
+background-color: #000000;
+color: #FFFFFF;
+transition: all .3s ease;
+}
+
+
+/* заголовок камнеломни */
+.castfont1{
+width: 488px;
+height: 64px;
+margin-left: 476px;
+margin-top: 61px;
+position: absolute;
+}
+
+/* кнопка вопроса 1 */
+.vopros1{
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+color: #000000;
+border: 2px solid #000000;
+border-radius: 20px;
+padding: 4px 12px;
+position: absolute;
+top: 831px;
+left: 1371px;
+}
+
+.vopros1:hover {
+background-color: #000000;
+color: #FFFFFF;
+transition: all .3s ease;
+}
+
+/* кнопка меню  */
+.btn-menu {
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+color: #000000;
+border: 2px solid #000000;
+border-radius: 20px;
+padding: 4px 26px;
+position: absolute;
+top: 32px;
+left: 32px;
+}
+
+.btn-menu:hover {
+background-color: #000000;
+color: #FFFFFF;
+transition: all .3s ease;
+}
+
+/* кнопка заново  */
+.zanovo {
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+color: rgba(0, 0, 0, 0.5);
+border: 2px solid rgba(0, 0, 0, 0.5);
+border-radius: 20px;
+padding: 4px 26px;
+position: absolute;
+top: 32px;
+left: 188px;
+}
+
+.zanovo:hover {
+background-color: #000000;
+color: #FFFFFF;
+transition: all .3s ease;
+}
+
+/* кнопка далее  */
+.dalee {
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+color: rgba(0, 0, 0, 0.5);
+border: 2px solid rgba(0, 0, 0, 0.5);
+border-radius: 40px;
+padding: 14px 30px;
+position: absolute;
+top: 811px;
+left: 643px;
+}
+
+.dalee:hover {
+background-color: #000000;
+color: #FFFFFF;
+transition: all .3s ease;
+}
+
+/* камень 1  */
+.kamen12, .kamen13{
+  position: absolute;
+  width: 238px;
+  height: 163px;
+  margin-left: 103px;
+  margin-top: 174px;
+  background-repeat: no-repeat;
+}
+
+.kamen12{
+  display: block;
+}
+
+.kamen13{
+ display: none;
+}
+
+.onosamoe{
+    display: block;
+}
+
+.netosamoe{
+    display: none;
+}
+
+
+
+/* камень 2   */
+.kamen14, .kamen15{
+  position: absolute;
+  width: 557px;
+  height: 373px;
+  margin-left: 327px;
+  margin-top: 174px;
+  background-repeat: no-repeat;
+}
+
+.kamen14{
+  display: block;
+}
+
+.kamen15{
+ display: none;
+}
+
+.onosamoe1{
+    display: block;
+}
+
+.netosamoe2{
+    display: none;
+}
+
+
+
+/* камень 2  */
+.kamen16, .kamen17{
+  position: absolute;
+  width: 570px;
+  height: 297px;
+  margin-left: 620px;
+  margin-top: 576px;
+  background-repeat: no-repeat;
+}
+
+.kamen16{
+  display: block;
+}
+
+.kamen17{
+ display: none;
+}
+
+.onosamoe3{
+    display: block;
+}
+
+.netosamoe4{
+    display: none;
+}
+
+/* камень 3 синий  */
+.kamen16, .kamen17{
+  position: absolute;
+  width: 570px;
+  height: 279px;
+  margin-left: 620px;
+  margin-top: 218px;
+  background-repeat: no-repeat;
+}
+
+.kamen16{
+  display: block;
+}
+
+.kamen17{
+ display: none;
+}
+
+.onosamoe5{
+    display: block;
+}
+
+.netosamoe6{
+    display: none;
+}
+
+/* камень 4 синий  */
+.kamen18, .kamen19{
+  position: absolute;
+  width: 570px;
+  height: 297px;
+  margin-left: 58px;
+  margin-top: 513px;
+  background-repeat: no-repeat;
+}
+
+.kamen18{
+  display: block;
+}
+
+.kamen19{
+ display: none;
+}
+
+.onosamoe7{
+    display: block;
+}
+
+.netosamoe8{
+    display: none;
+}
+
+/* монстрик1  */
+.monstryk1{
+  position: absolute;
+  width: 599px;
+  height: 493px;
+  margin-left: 421px;
+  margin-top: 204px;
+  background-repeat: no-repeat;
+}
+
+/* вредное ооблако уровень 2 */
+.but5{
+margin-left: 485px;
+margin-top: 491px;
+position: absolute;
+color: #000000;
+}
+
+.elips6{
+width: 160px;
+height: 160px;
+margin-left: 498px;
+margin-top: 327px;
+position: absolute;
+-moz-border-radius: 80px;
+-webkit-border-radius: 80px;
+border-radius: 80px;
+border: 13px solid #000000;
+box-sizing: border-box;
+}
+
+.elips7{
+position: absolute;
+width: 101px;
+height: 102px;
+margin-left: 526px;
+margin-top: 355px;
+background: #00FF19;
+filter: blur(25px);
+}
+
+
+.elips7:hover {
+position: absolute;
+margin-left: 500px;
+margin-top: 335px;
+width: 150px;
+height: 150px;
+-moz-border-radius: 75px;
+-webkit-border-radius: 75px;
+border-radius: 80px;
+box-sizing: border-box;
+background: #FF0000;
+filter: blur(9px);
+
+}
+
+.monster2{
+position: absolute;
+width: 195px;
+height: 178px;
+margin-left: 470px;
+margin-top: 327px;
+background-repeat: no-repeat;
+pointer-events: none;
+}
+
+/* заголовок вредного облака */
+.vrednoecast{
+width: 614px;
+height: 64px;
+margin-left: 413px;
+margin-top: 108px;
+position: absolute;
+}
+
+/* уровень 2 облака */
+.skyy div {
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: move;
+  z-index: 5;
+}
+
+.sk1 {
+position: absolute;
+height: 574px;
+width: 774px;
+margin-top: 184px;
+margin-left: 255px;
+background: no-repeat;
+}
+
+.sk2 {
+position: absolute;
+height: 239px;
+width: 304px;
+margin-top: 452px;
+margin-left: 668px;
+background: no-repeat;
+}
+
+.sk3 {
+position: absolute;
+height: 210px;
+width: 267px;
+margin-top: 293px;
+margin-left: 359px;
+background: no-repeat;
+}
+
+.sk4 {
+position: absolute;
+height: 239px;
+width: 304px;
+margin-top: 457px;
+margin-left: 454px;
+background: no-repeat;
+}
+
+.sk5 {
+position: absolute;
+height: 340px;
+width: 432px;
+margin-top: 176px;
+margin-left: 791px;
+background: no-repeat;
+}
+
+.sk6 {
+position: absolute;
+height: 211px;
+width: 267px;
+margin-top: 411px;
+margin-left: 217px;
+background: no-repeat;
+}
+
+.sk7 {
+position: absolute;
+height: 196px;
+width: 249px;
+margin-top: 307px;
+margin-left: 590px;
+background: no-repeat;
+}
+
+.sk-div {
+  height: 90vh;
+  width: 95vw;
+  top: -18vw;
+  left: 1.5vw;
+}
+
+/* монстрик 2  */
+.monstryk2{
+  position: absolute;
+  width: 599px;
+  height: 493px;
+  margin-left: 421px;
+  margin-top: 204px;
+  background-repeat: no-repeat;
+}
+
+/* шифруровень 2 */
+.but6{
+margin-left: 824px;
+margin-top: 617px;
+position: absolute;
+color: #000000;
+}
+
+.elips8{
+width: 160px;
+height: 160px;
+margin-left: 780px;
+margin-top: 453px;
+position: absolute;
+-moz-border-radius: 80px;
+-webkit-border-radius: 80px;
+border-radius: 80px;
+border: 13px solid #000000;
+box-sizing: border-box;
+}
+
+.elips9{
+position: absolute;
+width: 101px;
+height: 102px;
+margin-left: 809px;
+margin-top: 482px;
+background: #BD00FF;
+filter: blur(25px);
+}
+
+
+.elips9:hover {
+position: absolute;
+margin-left: 785px;
+margin-top: 457px;
+width: 150px;
+height: 150px;
+-moz-border-radius: 75px;
+-webkit-border-radius: 75px;
+border-radius: 80px;
+box-sizing: border-box;
+background: #FF0000;
+filter: blur(9px);
+
+}
+
+.monster3{
+position: absolute;
+width: 195px;
+height: 178px;
+margin-left: 755px;
+margin-top: 454px;
+background-repeat: no-repeat;
+pointer-events: none;
+}
+
+/* заголовок шифра */
+.sfr{
+width: 182px;
+height: 64px;
+margin-left: 629px;
+margin-top: 61px;
+position: absolute;
+}
+
+.chs{
+position: absolute;
+width: 444px;
+height: 473px;
+margin-left: 498px;
+margin-top: 213px;
+background-repeat: no-repeat;
+pointer-events: none;
+}
+
+/* кнопка вопроса 1 */
+.vopros6{
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+color: #000000;
+border: 2px solid #000000;
+border-radius: 20px;
+padding: 4px 12px;
+position: absolute;
+top: 831px;
+left: 1371px;
+}
+
+.vopros6:hover {
+background-color: #000000;
+color: #FFFFFF;
+transition: all .3s ease;
+}
+
+.pdsk{
+position: absolute;
+width: 334px;
+height: 198px;
+margin-left: 553px;
+margin-top: 351px;
+background-repeat: no-repeat;
+pointer-events: none;
+}
+
+.vopros6{
+  display: block;
+}
+
+.pdsk{
+ display: none;
+}
+
+.onosamoe9{
+    display: block;
+}
+
+.netosamoe10{
+    display: none;
+}
+
+.onosamoe11{
+    display: block;
+}
+
+.netosamoe12{
+    display: none;
+}
+
+/* монстрик 2  */
+.monstryk3{
+  position: absolute;
+  width: 625px;
+  height: 505px;
+  margin-left: 408px;
+  margin-top: 198px;
+  background-repeat: no-repeat;
+}
+
+.but7{
+margin-left: 1092px;
+margin-top: 489px;
+position: absolute;
+color: #000000;
+}
+
+.elips10{
+width: 160px;
+height: 160px;
+margin-left: 1062px;
+margin-top: 333px;
+position: absolute;
+-moz-border-radius: 80px;
+-webkit-border-radius: 80px;
+border-radius: 80px;
+border: 13px solid #000000;
+box-sizing: border-box;
+}
+
+.elips11{
+position: absolute;
+width: 101px;
+height: 102px;
+margin-left: 1092px;
+margin-top: 357px;
+background: #2400FF;
+filter: blur(25px);
+}
+
+
+.elips11:hover {
+position: absolute;
+margin-left: 1072px;
+margin-top: 336px;
+width: 150px;
+height: 150px;
+-moz-border-radius: 75px;
+-webkit-border-radius: 75px;
+border-radius: 80px;
+box-sizing: border-box;
+background: #FF0000;
+filter: blur(9px);
+
+}
+
+.monster4{
+position: absolute;
+width: 172px;
+height: 149px;
+margin-left: 1040px;
+margin-top: 333px;
+background-repeat: no-repeat;
+pointer-events: none;
+}
